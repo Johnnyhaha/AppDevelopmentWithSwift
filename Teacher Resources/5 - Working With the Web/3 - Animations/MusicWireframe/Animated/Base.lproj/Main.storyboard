@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animated" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4b8-KN-1mR">
+                                <rect key="frame" x="38" y="410.5" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="HUy-Q9-gop"/>
+                                    <constraint firstAttribute="width" constant="70" id="w89-ou-9xo"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0A-tv-oAD">
+                                <rect key="frame" x="152.5" y="410.5" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="GLW-5c-VPN"/>
+                                    <constraint firstAttribute="height" constant="70" id="vxY-Wy-sTg"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qsa-GC-ljG">
+                                <rect key="frame" x="267" y="410.5" width="70" height="70"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="1eg-h4-Lc8"/>
+                                    <constraint firstAttribute="width" constant="70" id="VcW-o1-lCc"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxL-u2-bKp">
+                                <rect key="frame" x="16" y="388" width="343" height="114.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lc5-oX-2r0">
+                                        <rect key="frame" x="0.0" y="0.0" width="114.5" height="114.5"/>
+                                        <state key="normal" image="reverse"/>
+                                        <connections>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="0wl-eo-73D"/>
+                                            <action selector="touchedUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFN-ft-qJy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuW-2A-19C">
+                                        <rect key="frame" x="114.5" y="0.0" width="114" height="114.5"/>
+                                        <state key="normal" image="pause"/>
+                                        <connections>
+                                            <action selector="playPauseButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="5bp-42-qyb"/>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="did-EU-m7M"/>
+                                            <action selector="touchedUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FRf-QV-F6c"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USJ-I7-yAm">
+                                        <rect key="frame" x="228.5" y="0.0" width="114.5" height="114.5"/>
+                                        <state key="normal" image="forward"/>
+                                        <connections>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="XRo-HR-Gi5"/>
+                                            <action selector="touchedUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBD-Ua-eii"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Lc5-oX-2r0" firstAttribute="width" secondItem="RuW-2A-19C" secondAttribute="width" id="Hin-5k-hvX"/>
+                                    <constraint firstAttribute="width" secondItem="BxL-u2-bKp" secondAttribute="height" multiplier="3:1" id="oRc-V6-NmL"/>
+                                    <constraint firstItem="USJ-I7-yAm" firstAttribute="width" secondItem="Lc5-oX-2r0" secondAttribute="width" id="uDQ-HV-LgX"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tgN-IT-o7z">
+                                <rect key="frame" x="16" y="20" width="343" height="343"/>
+                                <color key="backgroundColor" red="0.83529411760000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tgN-IT-o7z" secondAttribute="height" multiplier="1:1" id="5rm-S4-3H3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tgN-IT-o7z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="1ya-JF-bR1"/>
+                            <constraint firstItem="4b8-KN-1mR" firstAttribute="centerY" secondItem="Lc5-oX-2r0" secondAttribute="centerY" id="42f-cY-8qn"/>
+                            <constraint firstItem="Qsa-GC-ljG" firstAttribute="centerY" secondItem="USJ-I7-yAm" secondAttribute="centerY" id="86E-U9-0Go"/>
+                            <constraint firstItem="tgN-IT-o7z" firstAttribute="top" secondItem="9Ga-iY-ZbN" secondAttribute="top" id="MJU-ZW-ONM"/>
+                            <constraint firstItem="Qsa-GC-ljG" firstAttribute="centerX" secondItem="USJ-I7-yAm" secondAttribute="centerX" id="NzM-bY-U1b"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="BxL-u2-bKp" secondAttribute="leading" id="RJ1-SY-q7f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BxL-u2-bKp" secondAttribute="trailing" id="TCa-wc-gyR"/>
+                            <constraint firstItem="4b8-KN-1mR" firstAttribute="centerX" secondItem="Lc5-oX-2r0" secondAttribute="centerX" id="cW9-MN-K54"/>
+                            <constraint firstItem="BxL-u2-bKp" firstAttribute="top" secondItem="tgN-IT-o7z" secondAttribute="bottom" constant="25" id="cpy-vt-HUk"/>
+                            <constraint firstItem="H0A-tv-oAD" firstAttribute="centerX" secondItem="RuW-2A-19C" secondAttribute="centerX" id="gfP-uz-B5Q"/>
+                            <constraint firstItem="H0A-tv-oAD" firstAttribute="centerY" secondItem="RuW-2A-19C" secondAttribute="centerY" id="pTb-Nn-ghb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tgN-IT-o7z" secondAttribute="trailing" id="wFL-Nc-1NE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9Ga-iY-ZbN"/>
+                    </view>
+                    <connections>
+                        <outlet property="albumImageView" destination="tgN-IT-o7z" id="HDR-FM-fPY"/>
+                        <outlet property="forwardBackground" destination="Qsa-GC-ljG" id="dCt-b6-piR"/>
+                        <outlet property="forwardButton" destination="USJ-I7-yAm" id="SSo-gR-Odp"/>
+                        <outlet property="playPauseBackground" destination="H0A-tv-oAD" id="iLX-q9-MrX"/>
+                        <outlet property="playPauseButton" destination="RuW-2A-19C" id="TXJ-Yl-Tql"/>
+                        <outlet property="reverseBackground" destination="4b8-KN-1mR" id="XCL-tn-bxS"/>
+                        <outlet property="reverseButton" destination="Lc5-oX-2r0" id="0NA-Rs-dXX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="forward" width="60" height="60"/>
+        <image name="pause" width="60" height="60"/>
+        <image name="reverse" width="60" height="60"/>
+    </resources>
+</document>

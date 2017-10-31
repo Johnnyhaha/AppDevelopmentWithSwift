@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kP5-BL-7CA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Family-->
+        <scene sceneID="DX4-td-trG">
+            <objects>
+                <viewController id="eh2-JP-sbY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="epH-8f-kAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milky_way" translatesAutoresizingMaskIntoConstraints="NO" id="c63-hz-NRu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Jel-IL-527">
+                                <rect key="frame" x="40.5" y="295.5" width="294" height="76.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brother:  Ben Atkins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Okc-ex-kxU">
+                                        <rect key="frame" x="0.0" y="0.0" width="201.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sister: Vera Carr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lS-vN-aPC">
+                                        <rect key="frame" x="0.0" y="25.5" width="164" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best Friend: Candace Salinas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umn-Ra-DPr">
+                                        <rect key="frame" x="0.0" y="51" width="294" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jel-IL-527" firstAttribute="top" relation="greaterThanOrEqual" secondItem="5qH-sc-Xg8" secondAttribute="top" id="12u-t5-Zef"/>
+                            <constraint firstItem="5qH-sc-Xg8" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Jel-IL-527" secondAttribute="bottom" id="4Zb-As-YJB"/>
+                            <constraint firstItem="c63-hz-NRu" firstAttribute="top" secondItem="epH-8f-kAZ" secondAttribute="top" id="ALj-UA-OCh"/>
+                            <constraint firstItem="Jel-IL-527" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="epH-8f-kAZ" secondAttribute="leadingMargin" id="BHu-Jt-dt3"/>
+                            <constraint firstAttribute="bottom" secondItem="c63-hz-NRu" secondAttribute="bottom" id="Crp-gg-hPF"/>
+                            <constraint firstItem="Jel-IL-527" firstAttribute="centerX" secondItem="5qH-sc-Xg8" secondAttribute="centerX" id="ZDc-NY-3ud"/>
+                            <constraint firstItem="Jel-IL-527" firstAttribute="centerY" secondItem="epH-8f-kAZ" secondAttribute="centerY" id="bYc-Wi-PDd"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Jel-IL-527" secondAttribute="trailing" id="hEZ-j0-80A"/>
+                            <constraint firstItem="5qH-sc-Xg8" firstAttribute="trailing" secondItem="c63-hz-NRu" secondAttribute="trailing" id="mrz-20-vvD"/>
+                            <constraint firstItem="c63-hz-NRu" firstAttribute="leading" secondItem="5qH-sc-Xg8" secondAttribute="leading" id="qAS-c5-KLb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5qH-sc-Xg8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="family" selectedImage="family" id="LA3-hl-0ol"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFR-te-lAM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125.59999999999999" y="896.40179910044981"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="Pph-Wi-9Dk">
+            <objects>
+                <viewController id="tut-PG-x8b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="743-H3-T4H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milky_way" translatesAutoresizingMaskIntoConstraints="NO" id="sLO-VZ-haL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="S1o-Xr-hWy">
+                                <rect key="frame" x="119.5" y="295.5" width="136.5" height="76.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fishing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Bn-3Q-9kJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="72.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biking" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RO-hc-Lj6">
+                                        <rect key="frame" x="0.0" y="25.5" width="63" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Programming" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7j-wY-FJI">
+                                        <rect key="frame" x="0.0" y="51" width="136.5" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="S1o-Xr-hWy" firstAttribute="centerX" secondItem="dFV-XJ-NI7" secondAttribute="centerX" id="1iF-Qx-Rit"/>
+                            <constraint firstItem="S1o-Xr-hWy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dFV-XJ-NI7" secondAttribute="top" id="6Zc-la-VFM"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="S1o-Xr-hWy" secondAttribute="trailing" id="DLa-Pp-6hx"/>
+                            <constraint firstItem="S1o-Xr-hWy" firstAttribute="centerY" secondItem="743-H3-T4H" secondAttribute="centerY" id="UBO-X6-OV4"/>
+                            <constraint firstItem="sLO-VZ-haL" firstAttribute="leading" secondItem="dFV-XJ-NI7" secondAttribute="leading" id="X0Q-3q-cJa"/>
+                            <constraint firstItem="dFV-XJ-NI7" firstAttribute="trailing" secondItem="sLO-VZ-haL" secondAttribute="trailing" id="X3R-hU-Fcb"/>
+                            <constraint firstItem="dFV-XJ-NI7" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="S1o-Xr-hWy" secondAttribute="bottom" id="mir-ev-i4J"/>
+                            <constraint firstAttribute="bottom" secondItem="sLO-VZ-haL" secondAttribute="bottom" id="qAD-8a-KEf"/>
+                            <constraint firstItem="S1o-Xr-hWy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="743-H3-T4H" secondAttribute="leadingMargin" id="sDP-p6-QX6"/>
+                            <constraint firstItem="sLO-VZ-haL" firstAttribute="top" secondItem="743-H3-T4H" secondAttribute="top" id="xSn-H1-NQ3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dFV-XJ-NI7"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="hobbies" selectedImage="hobbies" id="5Sx-TM-b49"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WY8-Gh-luP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="847.82608695652175"/>
+        </scene>
+        <!--Bio-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="milky_way" translatesAutoresizingMaskIntoConstraints="NO" id="93e-By-KXG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="XeC-Gj-XkU">
+                                <rect key="frame" x="81.5" y="295.5" width="212" height="76.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:  Alexis Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhA-7H-0LE">
+                                        <rect key="frame" x="0.0" y="0.0" width="180" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.89803921568627454" green="0.69411764705882351" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Occupation:  Student" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylH-sR-DtO">
+                                        <rect key="frame" x="0.0" y="25.5" width="212" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hometown:  Seattle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YX3-pL-qZb">
+                                        <rect key="frame" x="0.0" y="51" width="197" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                        <color key="textColor" red="0.8980392157" green="0.69411764710000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="93e-By-KXG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8GO-6E-Aaa"/>
+                            <constraint firstAttribute="bottom" secondItem="93e-By-KXG" secondAttribute="bottom" id="94W-BD-1Mk"/>
+                            <constraint firstItem="XeC-Gj-XkU" firstAttribute="centerX" secondItem="jEF-Mo-EBF" secondAttribute="centerX" id="AIE-Bb-aj9"/>
+                            <constraint firstItem="XeC-Gj-XkU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="jEF-Mo-EBF" secondAttribute="top" id="CoI-I2-vo4"/>
+                            <constraint firstItem="jEF-Mo-EBF" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="XeC-Gj-XkU" secondAttribute="bottom" id="G1G-nw-eG3"/>
+                            <constraint firstItem="XeC-Gj-XkU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="RmR-5A-kyo"/>
+                            <constraint firstItem="XeC-Gj-XkU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Sgi-5v-KqD"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="XeC-Gj-XkU" secondAttribute="trailing" id="eTA-Ml-LKQ"/>
+                            <constraint firstItem="93e-By-KXG" firstAttribute="leading" secondItem="jEF-Mo-EBF" secondAttribute="leading" id="hT6-95-SK4"/>
+                            <constraint firstItem="jEF-Mo-EBF" firstAttribute="trailing" secondItem="93e-By-KXG" secondAttribute="trailing" id="rK8-wy-4Np"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jEF-Mo-EBF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bio" image="bio" selectedImage="bio" id="zrE-tH-pbV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="b7L-Tm-pV7">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kP5-BL-7CA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oaz-Zi-UK4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="0S3-uF-gr8"/>
+                        <segue destination="eh2-JP-sbY" kind="relationship" relationship="viewControllers" id="em1-fh-2is"/>
+                        <segue destination="tut-PG-x8b" kind="relationship" relationship="viewControllers" id="vZN-Cw-S5k"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mFo-Xk-UrW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bio" width="29" height="29"/>
+        <image name="family" width="29" height="29"/>
+        <image name="hobbies" width="29" height="29"/>
+        <image name="milky_way" width="3008" height="2000"/>
+    </resources>
+</document>
