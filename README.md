@@ -4,11 +4,12 @@
 入门iOS看的第一本书就是苹果官方在iBook出版的《App Development with Swift》，全英文。苹果官方出品，必属精品！书中源码没有注释，我跟着书本做项目，在代码中添加了一些注释，大家看书遇见不懂的可以参考一下。
 ### 注意事项：
 - iBook中国区账号不能使用，我记得我是在知乎上查找的方法，好像是在App Store里注册美区Apple ID，不填写付款信息。然后在MacBook里打开iBook应用，用美国区账号替换中国区账号。
-- 书中前面几页有源码链接，分为教师版和学生版，学生版里有题目，未完成的项目，做项目所需的图片资源等。教授版有所有完成的详细的答案来参考，建议都下载。学生版做练习，教授版对答案。
+- 书中前面几页有源码链接，分为教师版和学生版，学生版里有题目，未完成的项目，做项目所需的图片资源等。教师版有所有完成的详细的答案来参考，建议都下载。学生版做练习，教师版对答案。
 ### iBook书籍链接和图片：
 在 iBooks Store 中查看此图书：
 [《App Development with Swift》（作者：Apple Education）](https://itunes.apple.com/us/book/app-development-with-swift/id1219117996?mt=11)
-
+<img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/屏幕快照%202017-10-31%20上午9.35.07.png" width = "50%" />
+<img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/屏幕快照%202017-10-31%20上午9.33.38.png" width = "100%" />
 
 ### 优点：
 - 内容制作精良，由易到难，代码规范，课程作业设计经典实用，值得反复练习。
@@ -17,3 +18,8 @@
 - 插图清晰，代码片段详细，还有小视频。
 
  ### 项目快照：
+ <img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.23.30.png" width = "50%" /><img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.24.18.png" width = "50%" />
+ <img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.24.51.png" width = "50%" /><img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.27.20.png" width = "50%" />
+ <img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.28.05.png" width = "50%" /><img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.28.33.png" width = "50%" />
+ <img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%206%20-%202017-10-31%20at%2009.28.50.png" width = "50%" />
+ <img src="https://github.com/Johnnyhaha/AppDevelopmentWithSwift/blob/master/screenshots/屏幕快照%202017-10-31%20上午9.21.24.png" width = "50%" />
